@@ -9,7 +9,7 @@ import google.generativeai as ai
 
 # Create your views here.
 def geminiResponse(message):
-    API_KEY='AIzaSyCUPJ25ZhGGyQqXgFRukbnIAI6xDmO5AzQ'
+    API_KEY= apiKey
     
     ai.configure(api_key=API_KEY)
     
