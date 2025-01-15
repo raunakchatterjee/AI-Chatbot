@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'your_database_name',  # Replace with your MongoDB database name
         'ENFORCE_SCHEMA': False,       # Set to True if you want schema enforcement
         'CLIENT': {
-            'host': ${{ secrets.MONGODB_URI }},
+            'host': ${{ secrets.MONGO_URI }},
             'port': 27017,             # Default MongoDB port
             'username': 'user123',  # Replace with your MongoDB username
             'password': 'user123',  # Replace with your MongoDB password
